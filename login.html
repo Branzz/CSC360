@@ -31,21 +31,24 @@
             font-family: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono',
             'Source Code Pro', 'Courier New', 'monospace', 'Monospaced', 'Arial', 'serif';
         }
+        .red {
+            color: red;
+        }
     </style>
 </head>
-<body class="mono text-white" style="overflow-x: hidden; background-color: #212529;">
-    <div class="container-fluid m-1">
+<body class="mono text-white p-1" style="background-color: #212529;">
+    <div class="container-fluid">
         <nav class="navbar-expand p-2" style="text-shadow: 0 0 5px red">Homework 1</nav>
         <div class="row justify-content-center mt-5">
             <form id="main_form" class="col-12">
                 <h4 class="text-white text-center pb-2">Login</h4>
                 <div id="login_box" class="rounded p-4" style="background-color: #2A2A2A">
                     <div class="form-text">
-                        <input type="text" id="login" class="form-control bg-dark btn-outline-dark btn-light mb-1" style="color: red" />
+                        <input type="text" id="login" class="form-control bg-dark btn-outline-dark btn-light mb-1 red" />
                         <label class="form-label text-white-50" for="login">Username</label>
                     </div>
                     <div class="form-text mb-2">
-                        <input type="password" id="pw" class="form-control bg-dark btn-outline-dark btn-light mb-1" style="color: red" />
+                        <input type="password" id="pw" class="form-control bg-dark btn-outline-dark btn-light mb-1 red" />
                         <label class="form-label text-white-50" for="pw">Password</label>
                     </div>
                     <div class="d-flex">
